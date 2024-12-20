@@ -50,16 +50,20 @@ main .content .list {
   align-items: center;
   gap: 10px;
   height: 60px;
-  /* background-color: red; */
   width: 40%;
   font-weight: 500;
   border-radius: 12px;
+  font-size: 15px;
   cursor: pointer;
   line-height: 60px;
   padding-left: 25px;
   color: #333;
   z-index: 12;
   transition: all 0.4s ease;
+}
+
+.content .list label i {
+  font-size: 22px;
 }
 
 .content .list label:hover {
@@ -137,8 +141,4 @@ main .content .text-content {
 .content .text-content .title {
   font-size: 25px;
   margin-bottom: 10px;
-}
-
-.content .text-content p {
-  text-align: justify;
 }
